@@ -5,16 +5,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.jboss.bom.brms</groupId>
-        <artifactId>jboss-brms-bpmsuite-bom-parent</artifactId>
+        <groupId>org.jboss.bom.rhba</groupId>
+        <artifactId>rhba-rhdm-bom-parent</artifactId>
         <version>7.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>jboss-javaee-7.0-with-brms-bpmsuite</artifactId>
+    <artifactId>javaee-7.0-with-rhba-rhdm</artifactId>
     <packaging>pom</packaging>
 
-    <name>JBoss Java EE 7 Specification APIs with JBoss BRMS and JBoss BPM Suite</name>
-    <description>Dependency Management for Java EE 7 Specification APIs with JBoss BRMS and JBoss BPM Suite</description>
+    <name>Java EE 7 Specification APIs with RHDM and RHBA</name>
+    <description>Dependency Management for Java EE 7 Specification APIs with RHBA and RHDM</description>
 
     <dependencyManagement>
         <dependencies>
@@ -33,8 +33,8 @@
                 <scope>import</scope>
             </dependency>
             <dependency>
-                <groupId>org.jboss.bom.brms</groupId>
-                <artifactId>jboss-brms-bpmsuite-bom</artifactId>
+                <groupId>org.jboss.bom.rhba</groupId>
+                <artifactId>rhba-rhdm-bom</artifactId>
                 <version>${project.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
@@ -44,4 +44,3 @@
     </dependencyManagement>
 
 </project>
-
